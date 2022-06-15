@@ -1,0 +1,6 @@
+int foo(const int theInt,
+	const int someId,
+	const date& theDate)
+{
+    code
+}

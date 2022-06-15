@@ -1,0 +1,12 @@
+bool bar(
+	const date& theDate)
+{
+	some code
+}
+
+int bar(
+	const long id,
+	const date& someDate)
+{
+	more code
+}

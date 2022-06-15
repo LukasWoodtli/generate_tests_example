@@ -1,0 +1,55 @@
+
+===
+example0
+    foo
+    example0
+    foo
+    foo(theInt, someId, theDate);
+        const auto theInt = int();
+        const auto someId = int();
+        const auto theDate = date();
+    1
+
+===
+example1
+    bar
+    example1
+    bar
+    bar(theDate);
+        const auto theDate = date();
+    bar
+    example1
+    bar
+    bar(id, someDate);
+        const auto id = long();
+        const auto someDate = date();
+    2
+
+===
+example2
+    init
+    example2
+    init
+    init();
+    1
+
+===
+example3
+    getAddress
+    example3
+    getAddress
+    getAddress();
+    getFoo
+    example3
+    getFoo
+    getFoo(someStruct, theDate, Name, Forename, Zip, City, Fax, Email, Country);
+        auto someStruct = MyStruct();
+        auto theDate = date();
+        auto Name = string();
+        auto Forename = string();
+        auto Zip = string();
+        auto City = string();
+        auto Fax = string();
+        auto Email = string();
+        auto Country = MyStruct();
+    2

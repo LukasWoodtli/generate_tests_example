@@ -1,0 +1,19 @@
+
+MyAddress* getAddress()
+{
+	some code
+}
+
+std::string getFoo(
+	MyStruct& someStruct,
+	date& theDate,
+	string& Name,
+	string& Forename,
+	string& Zip,
+	string& City,
+	string& Fax,
+	string& Email,
+	MyStruct& Country)
+{
+    code
+}
